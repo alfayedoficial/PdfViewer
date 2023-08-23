@@ -37,5 +37,5 @@ android {
 
 dependencies {
 
-    //implementation( project(":pdfViewer"))
+    implementation( project(":pdfViewerUtils"))
 }
