@@ -36,6 +36,7 @@ android {
 dependencies {
 
     implementation("androidx.core:core-ktx:1.10.1")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.9.0")
     implementation("androidx.recyclerview:recyclerview:1.3.1")
@@ -53,7 +54,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.alfayedoficial"
                 artifactId = "pdfViewerUtils"
-                version = "1.0.4"
+                version = "1.0.5"
             }
         }
     }
