@@ -3,7 +3,7 @@
 
     <style name="Theme.PdfView.SelectedTheme" parent="@style/Theme.PdfView.Light" />
 
-    <style name="Theme.PdfView.Light" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.PdfView.Light" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
         <item name="pdfView_backIcon">@drawable/ic_arrow_back</item>
         <item name="pdfView_downloadIcon">@android:drawable/stat_sys_download</item>
         <item name="pdfView_downloadIconTint">#888A87</item>
@@ -12,7 +12,7 @@
         <item name="pdfView_progressBar">@style/pdfView_progressBarStyle</item>
     </style>
 
-    <style name="Theme.PdfView.Dark" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.PdfView.Dark" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
         <item name="pdfView_backIcon">@drawable/ic_arrow_back_alt</item>
         <item name="pdfView_downloadIcon">@android:drawable/stat_sys_download</item>
         <item name="pdfView_downloadIconTint">#2f2f2f</item>
