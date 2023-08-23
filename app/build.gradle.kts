@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.fourdev.pdfviewer"
+    namespace = "com.alfayedoficial.pdfviewer"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.fourdev.pdfviewer"
+        applicationId = "com.alfayedoficial.pdfviewer"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
@@ -35,4 +35,7 @@ android {
     }
 }
 
-dependencies {}
+dependencies {
+
+    //implementation( project(":pdfViewer"))
+}

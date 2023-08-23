@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.alfayedoficial.pdfviewer"
+    namespace = "com.alfayedoficial.pdfViewerUtils"
     compileSdk = 33
 
     defaultConfig {
@@ -47,15 +47,13 @@ dependencies {
 }
 
 afterEvaluate {
-    afterEvaluate {
-        publishing {
-            publications {
-                create<MavenPublication>("release") {
-                    from(components["release"])
-                    groupId = "com.github.alfayedoficial"
-                    artifactId = "pdfviewer"
-                    version = "1.0.0"
-                }
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                from(components["release"])
+                groupId = "com.github.alfayedoficial"
+                artifactId = "pdfViewerUtils"
+                version = "1.0.2"
             }
         }
     }

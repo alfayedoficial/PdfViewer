@@ -1,4 +1,4 @@
-package com.alfayedoficial.pdfviewer
+package com.alfayedoficial.pdfViewerUtils
 
 import android.graphics.Bitmap
 import android.view.LayoutInflater

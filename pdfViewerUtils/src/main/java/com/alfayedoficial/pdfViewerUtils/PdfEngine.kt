@@ -1,4 +1,4 @@
-package com.alfayedoficial.pdfviewer
+package com.alfayedoficial.pdfViewerUtils
 
 /**
  * Created by Rajat on 11,July,2020

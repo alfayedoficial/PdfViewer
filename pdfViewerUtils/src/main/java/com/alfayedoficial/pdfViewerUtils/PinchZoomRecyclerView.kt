@@ -1,4 +1,4 @@
-package com.alfayedoficial.pdfviewer
+package com.alfayedoficial.pdfViewerUtils
 
 import android.content.Context
 import android.graphics.Canvas

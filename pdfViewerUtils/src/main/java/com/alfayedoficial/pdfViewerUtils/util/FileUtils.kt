@@ -1,4 +1,4 @@
-package com.alfayedoficial.pdfviewer.util
+package com.alfayedoficial.pdfViewerUtils.util
 
 import android.content.Context
 import android.os.Environment

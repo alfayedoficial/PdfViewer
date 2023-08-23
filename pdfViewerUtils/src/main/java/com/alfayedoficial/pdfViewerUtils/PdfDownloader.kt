@@ -1,4 +1,4 @@
-package com.alfayedoficial.pdfviewer
+package com.alfayedoficial.pdfViewerUtils
 
 import android.content.Context
 import kotlinx.coroutines.DelicateCoroutinesApi
